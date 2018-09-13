@@ -55,6 +55,7 @@ class Game {
                 .replace("]", "")
         );
         showMan();
+        terminal.newLine();
     }
 
     private void lostGame() {
@@ -63,6 +64,7 @@ class Game {
         terminal.newLine();
         terminal.write("Unfortunately you lost :( ");
         showMan();
+        terminal.newLine();
     }
 
     private void askForNewLetter() {
