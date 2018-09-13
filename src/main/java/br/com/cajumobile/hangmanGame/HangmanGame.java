@@ -10,5 +10,8 @@ package br.com.cajumobile.hangmanGame;
  * @author messias
  */
 public class HangmanGame {
-    
+    public static void main(String[] args) {
+        Game game = new Game();
+        game.start();
+    }
 }
